@@ -602,7 +602,7 @@ html {
   position: absolute;
   content: '';
   display: inline-block;
-  background-image: url(../imeges/lines/newslater-line.png);
+  background-image: url(../imeges/lines/newslater-line.jpg);
   width: 165px;
   height: 15px;
   color: var(--main-color);
