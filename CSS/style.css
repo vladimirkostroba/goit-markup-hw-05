@@ -81,7 +81,7 @@ html {
   position: absolute;
   content: '';
   display: inline-block;
-  background-image: url(/imeges/icons/phone1.png);
+  background-image: url(../imeges/icons/phone1.png);
   background-repeat: no-repeat;
   width: 17px;
   height: 20px;
@@ -92,7 +92,7 @@ html {
   position: absolute;
   content: '';
   display: inline-block;
-  background-image: url(/imeges/icons/mail.png);
+  background-image: url(../imeges/icons/mail.png);
   background-repeat: no-repeat;
   width: 30px;
   height: 20px;
@@ -150,7 +150,7 @@ html {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(/imeges/banner/banner.jpg);
+    url(../imeges/banner/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -240,7 +240,7 @@ html {
 .setting ::before {
   position: absolute;
   content: '';
-  background-image: url(/imeges/icons/setting.png);
+  background-image: url(../imeges/icons/setting.png);
   background-repeat: no-repeat;
   color: #1abc9c;
   top: 0;
@@ -253,7 +253,7 @@ html {
 .power ::before {
   position: absolute;
   content: '';
-  background-image: url(/imeges/icons/power.png);
+  background-image: url(../imeges/icons/power.png);
   background-repeat: no-repeat;
   color: #1abc9c;
   top: 0;
@@ -266,7 +266,7 @@ html {
 .world ::before {
   position: absolute;
   content: '';
-  background-image: url(/imeges/icons/world.png);
+  background-image: url(../imeges/icons/world.png);
   background-repeat: no-repeat;
   color: #1abc9c;
   top: 0;
@@ -278,7 +278,7 @@ html {
 
 .compass ::before {
   content: '';
-  background-image: url(/imeges/icons/compass.png);
+  background-image: url(../imeges/icons/compass.png);
   background-repeat: no-repeat;
   color: #1abc9c;
   position: absolute;
@@ -339,7 +339,7 @@ html {
   position: absolute;
   content: '';
   display: inline-block;
-  background-image: url(/imeges/lines/line.png);
+  background-image: url(../imeges/lines/line.png);
   width: 165px;
   height: 15px;
   color: var(--main-color);
@@ -448,7 +448,7 @@ html {
 }
 
 .button-like {
-  background-image: url(/imeges/hover/like.png);
+  background-image: url(../imeges/hover/like.png);
   background-color: transparent;
   margin: 0;
   padding: 0;
@@ -470,7 +470,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  background-image: url(/imeges/hover/review.png);
+  background-image: url(../imeges/hover/review.png);
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff;
@@ -489,7 +489,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  background-image: url(/imeges/hover/clock.png);
+  background-image: url(../imeges/hover/clock.png);
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff;
@@ -507,7 +507,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  background-image: url(/imeges/hover/add-card.png);
+  background-image: url(../imeges/hover/add-card.png);
   width: 166px;
   height: 50px;
   border: 1px solid #ffffff;
@@ -602,7 +602,7 @@ html {
   position: absolute;
   content: '';
   display: inline-block;
-  background-image: url(/imeges/lines/newslater-line.png);
+  background-image: url(../imeges/lines/newslater-line.png);
   width: 165px;
   height: 15px;
   color: var(--main-color);
@@ -618,7 +618,7 @@ html {
 }
 
 .footer {
-  background-image: url(/imeges/banner/footer.png);
+  background-image: url(../imeges/banner/footer.png);
   background-color: #4dc5ab;
   margin: 0;
   padding: 0;
@@ -652,7 +652,7 @@ html {
   width: 85px;
   height: 60px;
   background-color: #4ec6ab;
-  background-image: url(/imeges/icons/newslatter-icon.png);
+  background-image: url(../imeges/icons/newslatter-icon.png);
   background-repeat: no-repeat;
   background-position: center;
 }
