@@ -31,6 +31,7 @@ html {
 .top-header {
   display: flex;
   background-color: #19bb9b;
+  height: 50px;
 }
 
 .top-nav {
@@ -39,15 +40,20 @@ html {
 
 .top-contact {
   display: flex;
+  align-items: center;
   list-style: none;
   margin-right: 0;
+  margin: 0;
   padding: 0;
   margin-right: auto;
 }
 
 .top-site-nav {
   display: flex;
+  align-items: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .top-link {
@@ -117,6 +123,9 @@ html {
 
 .site-nav {
   display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -158,7 +167,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .banner-title {
@@ -169,17 +177,6 @@ html {
   color: #fffcfc;
   margin: 0;
   padding: 0;
-}
-
-.banner-title-second {
-  font-family: var(--main-font);
-  font-size: 48px;
-  font-weight: 500;
-  text-align: center;
-  color: #fffcfc;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 25px;
 }
 
 .and {
@@ -212,23 +209,22 @@ html {
 
 /* settings */
 
+.settings {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
 .settings-main {
   padding-top: 100px;
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 80px;
 }
 
 .settings-item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: relative;
+  /* position: relative; */
   width: 249px;
-  height: 273px;
   margin: 0;
   padding: 0;
 }
@@ -238,20 +234,19 @@ html {
 }
 
 .setting ::before {
-  position: absolute;
+  display: inline-block;
   content: '';
   background-image: url(../imeges/icons/setting.png);
   background-repeat: no-repeat;
   color: #1abc9c;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
   width: 65px;
   height: 65px;
+
+  /*  */
 }
 
 .power ::before {
-  position: absolute;
+  display: inline-block;
   content: '';
   background-image: url(../imeges/icons/power.png);
   background-repeat: no-repeat;
@@ -264,11 +259,13 @@ html {
 }
 
 .world ::before {
-  position: absolute;
+  display: inline-block;
   content: '';
   background-image: url(../imeges/icons/world.png);
   background-repeat: no-repeat;
   color: #1abc9c;
+  background-position: center;
+  background-size: contain;
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
@@ -280,8 +277,9 @@ html {
   content: '';
   background-image: url(../imeges/icons/compass.png);
   background-repeat: no-repeat;
+  background-position: center;
   color: #1abc9c;
-  position: absolute;
+  display: inline-block;
   top: 0;
   left: 50%;
   transform: translate(-50%, 0);
@@ -297,7 +295,7 @@ html {
   color: #555252;
   margin: 0;
   padding: 0;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .settings-description {
@@ -314,6 +312,12 @@ html {
 /* section3,4 */
 .new-colection {
   background-color: #e9effd;
+  padding-top: 100px;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .new-colection-list {
@@ -331,7 +335,7 @@ html {
   color: var(--h2-color);
   text-align: center;
   margin: 0;
-  padding-top: 100px;
+
   padding-bottom: 120px;
 }
 
@@ -344,7 +348,7 @@ html {
   height: 15px;
   color: var(--main-color);
   left: 472px;
-  top: 190px;
+  top: 90px;
 }
 
 .menu {
@@ -523,8 +527,7 @@ html {
 }
 
 /* inform */
-
-.information-list-item {
+.girl .information-list-item {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 0;
@@ -537,6 +540,8 @@ html {
 
 .information-list {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .information-title {
@@ -581,6 +586,7 @@ html {
   background-color: #e9effd;
   margin: 0;
   padding: 0;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -594,8 +600,6 @@ html {
   color: var(--h2-color);
   text-align: center;
   margin: 0;
-  padding-top: 100px;
-  padding-bottom: 75px;
 }
 
 .footer-title::after {
@@ -607,7 +611,7 @@ html {
   height: 15px;
   color: var(--main-color);
   left: 472px;
-  top: 190px;
+  top: 90px;
 }
 
 .text-form {
@@ -622,6 +626,7 @@ html {
   background-color: #4dc5ab;
   margin: 0;
   padding: 0;
+  padding-top: 100px;
   padding-bottom: 130px;
 }
 
@@ -631,6 +636,7 @@ html {
   color: #fbfefd;
   text-align: center;
   line-height: 1.6;
+  margin-top: 70px;
   padding-bottom: 40px;
 }
 
