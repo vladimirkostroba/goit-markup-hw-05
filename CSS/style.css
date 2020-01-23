@@ -25,7 +25,7 @@ html {
   width: 1110px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .top-header {
@@ -208,7 +208,6 @@ html {
 }
 
 /* settings */
-
 .settings {
   padding-top: 100px;
   padding-bottom: 80px;
@@ -223,68 +222,15 @@ html {
 }
 
 .settings-item {
-  /* position: relative; */
-  width: 249px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  width: 249px;
+  text-align: center;
 }
 
 .settings-item:not(:nth-child(4n)) {
   margin-right: 30px;
-}
-
-.setting ::before {
-  display: inline-block;
-  content: '';
-  background-image: url(../imeges/icons/setting.png);
-  background-repeat: no-repeat;
-  color: #1abc9c;
-  width: 65px;
-  height: 65px;
-
-  /*  */
-}
-
-.power ::before {
-  display: inline-block;
-  content: '';
-  background-image: url(../imeges/icons/power.png);
-  background-repeat: no-repeat;
-  color: #1abc9c;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 65px;
-  height: 65px;
-}
-
-.world ::before {
-  display: inline-block;
-  content: '';
-  background-image: url(../imeges/icons/world.png);
-  background-repeat: no-repeat;
-  color: #1abc9c;
-  background-position: center;
-  background-size: contain;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 65px;
-  height: 65px;
-}
-
-.compass ::before {
-  content: '';
-  background-image: url(../imeges/icons/compass.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #1abc9c;
-  display: inline-block;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 65px;
-  height: 65px;
 }
 
 .settings-title {
@@ -295,7 +241,8 @@ html {
   color: #555252;
   margin: 0;
   padding: 0;
-  /* margin-bottom: 32px; */
+  margin-bottom: 32px;
+  margin-top: 30px;
 }
 
 .settings-description {
@@ -307,6 +254,52 @@ html {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.setting::before {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  content: '';
+  background-image: url(../imeges/icons/setting.png);
+  background-repeat: no-repeat;
+  background-position: ;
+  background-size: contain;
+}
+
+.power::before {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  content: '';
+  background-image: url(../imeges/icons/power.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.world::before {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  content: '';
+  background-image: url(../imeges/icons/world.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  right: 50;
+}
+
+.compass::before {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  content: '';
+  background-image: url(../imeges/icons/compass.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  right: 50;
 }
 
 /* section3,4 */
@@ -327,6 +320,17 @@ html {
   padding-bottom: 100px;
 }
 
+.line::before {
+  display: inline-block;
+  height: 15px;
+  width: 165px;
+  content: '';
+  background-image: url(../imeges/lines/line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .main-title {
   font-family: var(--main-font);
   font-size: 48px;
@@ -335,20 +339,20 @@ html {
   color: var(--h2-color);
   text-align: center;
   margin: 0;
-
   padding-bottom: 120px;
 }
 
 .main-title::after {
-  position: absolute;
-  content: '';
-  display: inline-block;
-  background-image: url(../imeges/lines/line.png);
-  width: 165px;
+  display: block;
   height: 15px;
-  color: var(--main-color);
-  left: 472px;
-  top: 90px;
+  width: 165px;
+  content: '';
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(../imeges/lines/line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .menu {
@@ -602,16 +606,28 @@ html {
   margin: 0;
 }
 
-.footer-title::after {
-  position: absolute;
-  content: '';
+.line2::before {
   display: inline-block;
-  background-image: url(../imeges/lines/newslater-line.png);
-  width: 165px;
   height: 15px;
-  color: var(--main-color);
-  left: 472px;
-  top: 90px;
+  width: 165px;
+  content: '';
+  background-image: url(../imeges/lines/newslater-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.footer-title::after {
+  display: block;
+  height: 15px;
+  width: 165px;
+  content: '';
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(../imeges/lines/newslater-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .text-form {
